@@ -120,7 +120,7 @@
                             },
                             "allowedDeviationTheta": {
                                 "type": "number",
-                                "minimum": -3.141592654,
+                                "minimum": 0.0,
                                 "maximum": 3.141592654,
                                 "description": "Indicates how big the deviation of theta angle can be. \nThe lowest acceptable angle is theta - allowedDeviationTheta and the highest acceptable angle is theta + allowedDeviationTheta."
                             },
@@ -204,7 +204,7 @@
                     },
                     "orientationType":{
                         "type": "string",
-                        "description": "Enum {GLOBALGLOBAL, TANGENTIALTANGENTIAL}: \n\"GLOBAL\"- relative to the global project specific map coordinate system; \n\"TANGENTIAL\"- tangential to the edge. \nIf not defined, the default value is \"TANGENTIAL\"."
+                        "description": "Enum {GLOBAL, TANGENTIAL}: \n\"GLOBAL\"- relative to the global project specific map coordinate system; \n\"TANGENTIAL\"- tangential to the edge. \nIf not defined, the default value is \"TANGENTIAL\"."
                     },
                     "direction": {
                         "type": "string",
